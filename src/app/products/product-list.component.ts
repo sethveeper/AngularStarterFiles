@@ -77,7 +77,7 @@ export class ProductListComponent {
           this.showImage = !this.showImage;
       }
 
-      _listFilter: string = 'cart';
+      _listFilter: string;
       get listFilter() : string 
       {
         return this._listFilter;
